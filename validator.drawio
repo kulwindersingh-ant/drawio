@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2023-07-04T09:47:03.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="C_6FTOS0ULPPFLiXB1q0" version="21.5.2" type="github">
+  <diagram name="Page-1" id="e2gIS9SbRrOJaL_Wsn3L">
+    <mxGraphModel dx="1020" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4q8XyyusnABMMMZ51QOD-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="451" y="241" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-21" value="Validator UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="543.5" y="291" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-22" value="5ire Wallet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="546" y="441" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-22" target="4q8XyyusnABMMMZ51QOD-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="491" as="sourcePoint" />
+            <mxPoint x="411" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-24" value="Sign and Send Txn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="381" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="91" y="241" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-26" value="Controllers, Helpers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="291" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-27" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="256" y="450" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-26" target="4q8XyyusnABMMMZ51QOD-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="491" as="sourcePoint" />
+            <mxPoint x="411" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-29" value="Rest APIs&lt;br&gt;Store validator name,status, etc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFCCE6;" vertex="1" connectable="0" parent="4q8XyyusnABMMMZ51QOD-28">
+          <mxGeometry x="-0.0202" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.392;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-27" target="4q8XyyusnABMMMZ51QOD-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="491" as="sourcePoint" />
+            <mxPoint x="411" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-31" value="Store Validator Meta Info&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFCCE6;" vertex="1" connectable="0" parent="4q8XyyusnABMMMZ51QOD-30">
+          <mxGeometry x="-0.0101" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="451" y="120" width="329" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-33" value="Explorer APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="553.5" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-37" value="5irechain Validator&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-38" value="Cron Job&lt;br&gt;(Update validator status)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="101" y="291" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-27" target="4q8XyyusnABMMMZ51QOD-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-40" value="Validator Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="298" y="241" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-43" value="5irechain Node" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="125" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=30;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-43" target="4q8XyyusnABMMMZ51QOD-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-47" value="Fetch Validator Status&lt;br&gt;&amp;nbsp;From Blockchain RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFCCE6;" vertex="1" connectable="0" parent="4q8XyyusnABMMMZ51QOD-46">
+          <mxGeometry x="-0.1542" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.708;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-43" target="4q8XyyusnABMMMZ51QOD-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q8XyyusnABMMMZ51QOD-33" target="4q8XyyusnABMMMZ51QOD-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="380" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q8XyyusnABMMMZ51QOD-55" value="Read Validator Logs, Reward Info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFCCE6;" vertex="1" connectable="0" parent="4q8XyyusnABMMMZ51QOD-50">
+          <mxGeometry x="-0.2917" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
